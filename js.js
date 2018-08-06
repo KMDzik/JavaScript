@@ -22,10 +22,21 @@ while (age < 10) {
     */
  
 
-var links = document.getElementsByTagName("a");
+/* var links = document.getElementsByTagName("a");
 
 for ( i = 1; i <= links.length; i++) {
     console.log("this is link number" + i);
 }
 
-document.write("all links now looped");
+document.write("all links now looped"); */
+
+ function getAverage (a,b) {
+
+ var average = (a + b) / 2;
+ console.log(average);
+return average;
+ }
+ 
+ var myResult = getAverage (7,7)
+ console.log("the average is " + myResult );
+
