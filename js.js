@@ -1,9 +1,20 @@
-var brekfast = false;
+var size = 165;
 
-if (breakfast = true) {
-    document.write ("Lubię jeść śniadania");
+if ( size < 165 && size > 175 || size === 165) {
+    document.write("This dress will not match");
+}
+else  {
+
+    document.write("Perfecto!");
 }
 
-else {
-    document.write ("Nie lubię jeść śniadań");
+
+
+var age = 5;
+
+while (age < 10) {
+
+    console.log("      You are over 12!");
+    age++;
 }
+    document.write("      your age is less than 12"); 
