@@ -41,7 +41,7 @@ return average;
  console.log("the average is " + myResult ); */
 
 
- for (i = 0; i < 20; i ++) {
+ /* for (i = 0; i < 20; i ++) {
 
     if (i === 5 || i === 11 || i === 13 || i === 14) {
         
@@ -57,4 +57,13 @@ return average;
  }
 
  console.log("This is the end");
+*/
 
+var a = "5";
+var b = 6;
+
+console.log(typeof (a+b));
+
+console.log(a - b);
+
+console.log(Math.round(7.6));
