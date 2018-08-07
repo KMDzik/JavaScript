@@ -30,13 +30,31 @@ for ( i = 1; i <= links.length; i++) {
 
 document.write("all links now looped"); */
 
- function getAverage (a,b) {
+ /* function getAverage (a,b) {
 
  var average = (a + b) / 2;
  console.log(average);
 return average;
  }
- 
+
  var myResult = getAverage (7,7)
- console.log("the average is " + myResult );
+ console.log("the average is " + myResult ); */
+
+
+ for (i = 0; i < 20; i ++) {
+
+    if (i === 5 || i === 11 || i === 13 || i === 14) {
+        
+        continue;
+    }
+    if (i === 16){
+
+        break;
+    }
+
+   
+
+ }
+
+ console.log("This is the end");
 
