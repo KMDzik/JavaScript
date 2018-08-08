@@ -83,7 +83,7 @@ var myHouse
 
 console.log(myHouse.phone()); */
 
-var myCar = new Object();
+/* var myCar = new Object();
 
 var myCar = {
     speed: 250,
@@ -92,4 +92,22 @@ var myCar = {
 }
 };
 
- console.log(myCar.speed); myCar.way(250,3);
+ console.log(myCar.speed); myCar.way(250,3); */
+
+
+ /* console.log(this);
+
+var myCar = {
+    speed: 250,
+    way: function(speed, time){
+    console.log(speed * time);
+}
+};
+
+ console.log(myCar.speed); myCar.way(250,3); */
+
+ var myPresentDate = new Date(2018, 8, 8, 10, 30, 16);
+ var myFutureDate = new Date(2019, 3, 1, 10, 22, 22);
+
+ console.log(myPresentDate);
+ console.log(myFutureDate);
