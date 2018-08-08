@@ -71,7 +71,7 @@ console.log(Math.round(7.6)); */
 
 Object 
 
-var myHouse = new Object();
+ /* var myHouse = new Object();
 
 var myHouse
     myHouse.door = 25;
@@ -81,4 +81,15 @@ var myHouse
 };
 
 
-console.log(myHouse.phone());
+console.log(myHouse.phone()); */
+
+var myCar = new Object();
+
+var myCar = {
+    speed: 250,
+    way: function(speed, time){
+    console.log(speed * time);
+}
+};
+
+ console.log(myCar.speed); myCar.way(250,3);
