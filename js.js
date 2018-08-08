@@ -59,11 +59,26 @@ return average;
  console.log("This is the end");
 */
 
-var a = "5";
+/* var a = "5";
 var b = 6;
 
 console.log(typeof (a+b));
 
 console.log(a - b);
 
-console.log(Math.round(7.6));
+console.log(Math.round(7.6)); */
+
+
+Object 
+
+var myHouse = new Object();
+
+var myHouse
+    myHouse.door = 25;
+    myHouse.windows = 4;
+    myHouse.roof = "welcome!"
+    myHouse.phone = function() {console.log("Call me today!");
+};
+
+
+console.log(myHouse.phone());
