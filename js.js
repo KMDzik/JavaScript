@@ -106,8 +106,28 @@ var myCar = {
 
  console.log(myCar.speed); myCar.way(250,3); */
 
- var myPresentDate = new Date(2018, 8, 8, 10, 30, 16);
+ 
+ 
+ /* var myPresentDate = new Date(2018, 8, 8, 10, 30, 16);
  var myFutureDate = new Date(2019, 3, 1, 10, 22, 22);
 
  console.log(myPresentDate);
- console.log(myFutureDate);
+ console.log(myFutureDate); */
+
+
+ var wedding = new Date(2020, 3, 1, 10, 22, 22);
+ var divorse = new Date(2020, 3, 1, 10, 22, 22);
+
+ console.log(wedding.getFullYear());
+ console.log(wedding.getTime());
+ console.log(wedding.getDay());
+ console.log(wedding.getHours());
+
+if (wedding.getTime() == divorse.getTime()){
+
+    console.log("equal");
+}
+
+else{
+    console.log("not equal");
+}
